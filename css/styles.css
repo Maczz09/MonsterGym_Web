@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .bg-custom {
+    background-color: #535c91;
+  }
+  .iconPage {
+    transition: transform 0.3s ease;
+  }
+
+  .iconPage:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width:912px) {
+    .footerContainer > div{
+      text-align: center;
+    }
+    .ifrContainer iframe {
+      width: 100%;
+    }
+  }
+  body {
+  padding-top: 95px;
+}
+.gym-theme {
+background-color: #535c91;
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+
+.gym-theme h1 {
+font-size: 3rem;
+text-align: center;
+margin-bottom: 1rem;
+}
+
+.gym-theme h3 {
+font-size: 2rem;
+text-align: center;
+margin-bottom: 1rem;
+}
+
+.gym-theme p {
+font-size: 1.2rem;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.gym-theme table {
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 2rem;
+}
+
+.gym-theme th,
+.gym-theme td {
+border: 1px solid #535c91;
+padding: 0.5rem;
+text-align: center;
+}
+
+.gym-theme th {
+background-color: #1b1a55;
+color: white;
+font-weight: normal;
+}
+
+.gym-theme button {
+background-color: #4a5271;
+color: white;
+border: none;
+padding: 0.5rem 2rem;
+font-size: 1.2rem;
+cursor: pointer;
+}
+
+.gym-theme button:hover {
+background-color: #3e4461;
+}
+.carousel-bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: url('Imagenes/centrodebienestarcarrusel.jpg') center/cover no-repeat;
+}
+
+.testimonial {
+color: white;
+text-align: center;
+padding: 10%;
+}
+
+:root {
+    --primary-color: #217DF9;
+    --secondary-color: #0E0707;
+    --image-height: 250px;
+    --padding: 25px;
+    --border-radius: 10px;
+  }
+  
+  
+  #galeria {
+    background-color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contenedor {
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #galeria img {
+    width: 100%;
+    height: var(--image-height);
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    transition: border 0.3s ease-in-out;
+  }
+  
+  #galeria img:hover {
+    border: 5px solid var(--secondary-color);
+  }
+  
+  
+  .columna {
+    margin: 0;
+    padding: var(--padding);
+  }
+  .columna:not(:first-child) {
+    margin-top: 20px; 
+  }
+
+  .service {
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #136BE3;
+}
